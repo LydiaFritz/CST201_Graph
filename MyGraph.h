@@ -7,7 +7,7 @@ using namespace std;
 
 class MyGraph {
 private:
-	string* counties;
+	string counties[15];
 	int distances[15][15];
 	void loadDistances();
 
